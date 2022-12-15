@@ -1,10 +1,8 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
-import * as cdk from '@aws-cdk/core';
-import { WebsiteStack } from '../lib/website-stack';
+import * as cdk from 'aws-cdk-lib';
+import { SkillStack } from '../lib/skill-stack';
 
 const app = new cdk.App();
-new WebsiteStack(app, 'website-stack', {
-    webRoot: 'site',
-    webDistributionFolder: '../static-website/dist'
+new SkillStack(app, 'skill-stack', {    
 });

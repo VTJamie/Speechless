@@ -1,8 +1,8 @@
 {
-  "name": "react-boilerplate",
+  "name": "speechless",
   "version": "1.0.0",
   "devDependencies": {
-    "lerna": "^3.21.0"
+    "lerna": "^6.1.0"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap --no-ci",
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VTJamie/react-boilerplate.git"
+    "url": "git+https://github.com/VTJamie/speechless.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VTJamie/react-boilerplate/issues"
+    "url": "https://github.com/VTJamie/speechless/issues"
   },
-  "homepage": "https://github.com/VTJamie/react-boilerplate#readme",
+  "homepage": "https://github.com/VTJamie/speechless#readme",
   "description": ""
 }
