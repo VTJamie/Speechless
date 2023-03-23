@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LongPressGesture: LongPressGesture 1`] = `
+{
+  "onLongPressEnd": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onLongPressStart": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "type": "LongPress",
+}
+`;

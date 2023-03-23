@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SendEventCommand: SendEventCommand 1`] = `
+{
+  "arguments": [
+    "uniqueId",
+  ],
+  "type": "SendEvent",
+}
+`;

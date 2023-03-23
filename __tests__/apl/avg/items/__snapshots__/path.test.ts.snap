@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AVGPath: AVGPath 1`] = `
+{
+  "bind": [
+    {
+      "name": "avalue",
+      "value": "thevalue",
+    },
+  ],
+  "description": "description",
+  "fill": {
+    "colorRange": [
+      "#FFFFFFAA",
+    ],
+    "type": "linear",
+  },
+  "fillOpacity": 4,
+  "fillTransform": "placeholder",
+  "pathData": "pathdata",
+  "pathLength": 4,
+  "stroke": {
+    "colorRange": [
+      "rgba(1,2,3,4%)",
+      "#FFEECC",
+    ],
+    "type": "linear",
+  },
+  "strokeDashArray": [
+    4,
+  ],
+  "strokeDashOffset": 6,
+  "strokeLineCap": "butt",
+  "strokeLineJoin": "bevel",
+  "strokeMiterLimit": 4,
+  "strokeOpacity": 5,
+  "strokeTransform": "placeholder",
+  "strokeWidth": 6,
+  "style": "style",
+  "type": "path",
+  "when": "when",
+}
+`;

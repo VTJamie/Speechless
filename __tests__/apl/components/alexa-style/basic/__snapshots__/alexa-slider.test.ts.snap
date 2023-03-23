@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlexaSlider: AlexaSlider 1`] = `
+{
+  "onBlurCommand": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onDownCommand": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onFocusCommand": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMoveCommand": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onUpCommand": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "type": "AlexaSlider",
+}
+`;

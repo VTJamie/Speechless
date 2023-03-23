@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APLDocument: APLDocument 1`] = `
+{
+  "import": [
+    {
+      "name": "alexa-layouts",
+      "version": "1.6.0",
+    },
+    {
+      "name": "alexa-viewport-profiles",
+      "version": "1.5.0",
+    },
+    {
+      "name": "alexa-styles",
+      "version": "1.5.0",
+    },
+  ],
+  "mainTemplate": {
+    "items": [
+      {
+        "items": [],
+        "onMount": [
+          {
+            "arguments": [
+              "unique",
+            ],
+            "type": "SendEvent",
+          },
+        ],
+        "type": "Container",
+      },
+    ],
+    "parameters": [
+      "firsttokenlist",
+      "firstindexlist",
+    ],
+  },
+  "type": "APL",
+  "version": "2023.1",
+}
+`;

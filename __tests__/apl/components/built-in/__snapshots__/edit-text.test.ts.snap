@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APLEditText: APLEditText 1`] = `
+{
+  "onBlur": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onFocus": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onSubmit": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onTextChange": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "type": "EditText",
+}
+`;

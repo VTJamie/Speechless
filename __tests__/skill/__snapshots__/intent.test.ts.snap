@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Intent: Intent 1`] = `
+{
+  "name": "testIntent",
+  "samples": [
+    "read me a story",
+  ],
+  "slots": [],
+}
+`;

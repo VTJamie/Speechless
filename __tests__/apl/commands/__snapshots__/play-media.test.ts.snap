@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayMediaCommand: PlayMediaCommand 1`] = `
+{
+  "source": {
+    "url": "",
+  },
+  "type": "PlayMedia",
+}
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectCommand: SelectCommand 1`] = `
+{
+  "commands": [
+    {
+      "arguments": [
+        "uniqueId",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "otherwise": [
+    {
+      "arguments": [
+        "uniqueId",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "type": "Select",
+}
+`;

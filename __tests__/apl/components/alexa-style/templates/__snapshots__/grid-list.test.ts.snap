@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlexaGridList: AlexaGridList 1`] = `
+{
+  "headerBackButtonCommand": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "primaryAction": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "type": "AlexaGridList",
+}
+`;

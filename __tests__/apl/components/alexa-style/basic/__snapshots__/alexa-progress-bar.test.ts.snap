@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlexaProgressBar: AlexaProgressBar 1`] = `
+{
+  "bufferValue": 100,
+  "isLoading": true,
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "progressBarType": "determinate",
+  "progressFillColor": "#EEBBAA",
+  "progressValue": 16,
+  "totalValue": 35,
+  "type": "AlexaProgressBar",
+}
+`;

@@ -1,26 +1,76 @@
 {
   "name": "speechless",
   "version": "1.0.0",
+  "description": "Create Custom Skills with less headache",
+  "main": "index.js",
+  "types": "index.d.ts",
   "devDependencies": {
-    "lerna": "^6.1.0"
+    "@types/crypto-js": "^4.1.1",
+    "@types/jest": "^29.2.5",
+    "@types/uuid": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.4",
+    "jest": "^29.3.1",
+    "json-schema-to-typescript": "^11.0.2",
+    "prettier": "2.8.2",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap --no-ci",
-    "clean": "lerna clean --yes && lerna run clean",
-    "start": "lerna start",
-    "deploy": "lerna run build --no-ci && lerna run deploy  --no-ci --stream",
-    "build": "lerna run build  --no-ci",
-    "lerna": "lerna"
+    "clean": "rm -rf dist apl skill apla index.d.ts index.js types.d.ts types.js build node_modules",
+    "test": "npx jest --coverage",    
+    "prepublishOnly": "npm run lint",
+    "fix": "prettier --write \"{lib,__tests__}/**/*.{ts,tsx}\" && eslint --fix \"{lib,__tests__}/**/*.{ts,tsx}\"",
+    "lint": "prettier --check \"{lib,__tests__}/**/*.{ts,tsx}\" && eslint \"{lib,__tests__}/**/*.{ts,tsx}\"",
+    "release": "npm run test && tsc",
+    "noop": "echo no-op",
+    "updatesnapshot": "npx jest --updateSnapshot"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.109",
+    "ask-cli": "^2.28.0",
+    "ask-sdk": "^2.12.1",
+    "ask-sdk-dynamodb-persistence-adapter": "^2.12.1",
+    "ask-smapi-model": "^1.23.0",
+    "ask-smapi-sdk": "^1.3.0",
+    "crypto-js": "^4.1.1",
+    "uuid": "^9.0.0",
+    "aws-sdk": "^2.1313.0"
+  },
+  "peerDependencies": {
+    "ask-sdk-core": "^2.12.1",
+    "ask-sdk-model": "^1.42.0",
+    "ask-sdk-dynamodb-persistence-adapter": "^2.12.1",
+    "aws-sdk": "^2.1313.0"
+  },
+  "prettier": {
+    "jsxBracketSameLine": true,
+    "jsxSingleQuote": true,
+    "printWidth": 140,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "semi": true
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VTJamie/speechless.git"
+    "url": "git+https://github.com/VTJamie/Speechless.git"
   },
-  "author": "",
+  "keywords": [
+    "alexa",
+    "apl",
+    "apla",
+    "custom",
+    "skill",
+    "build"
+  ],
+  "author": "Jamieson Abbott",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VTJamie/speechless/issues"
+    "url": "https://github.com/VTJamie/Speechless/issues"
   },
-  "homepage": "https://github.com/VTJamie/speechless#readme",
-  "description": ""
+  "homepage": "https://github.com/VTJamie/Speechless#readme"
 }

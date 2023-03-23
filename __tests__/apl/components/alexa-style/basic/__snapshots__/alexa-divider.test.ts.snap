@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlexaDivider: AlexaDivider 1`] = `
+{
+  "actions": [
+    {
+      "commands": [
+        {
+          "arguments": [
+            "unique",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "label": "action",
+      "name": "name",
+    },
+  ],
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "type": "AlexaDivider",
+}
+`;

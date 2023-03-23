@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SetValueCommand: SetValueCommand 1`] = `
+{
+  "property": "thisproperty",
+  "type": "SetValue",
+  "value": "new value",
+}
+`;

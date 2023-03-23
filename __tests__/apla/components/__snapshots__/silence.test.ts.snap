@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APLASilence: APLASilence 1`] = `
+{
+  "duration": 788,
+  "type": "Silence",
+}
+`;

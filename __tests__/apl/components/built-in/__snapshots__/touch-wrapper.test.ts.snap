@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APLTouchWrapper: APLTouchWrapper 1`] = `
+{
+  "gestures": [
+    {
+      "onTap": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "type": "Tap",
+    },
+    {
+      "onDoublePress": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "onSinglePress": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "type": "DoublePress",
+    },
+    {
+      "onLongPressEnd": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "onLongPressStart": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "type": "LongPress",
+    },
+    {
+      "direction": "left",
+      "onSwipeDone": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "onSwipeMove": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "type": "SwipeAway",
+    },
+  ],
+  "items": [
+    {
+      "onCursorEnter": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "onCursorExit": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "onMount": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "text": "placeholder",
+      "type": "Text",
+    },
+  ],
+  "type": "TouchWrapper",
+}
+`;

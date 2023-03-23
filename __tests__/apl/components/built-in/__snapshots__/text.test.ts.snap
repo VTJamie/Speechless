@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APLText: APLText 1`] = `
+{
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "text": "texted",
+  "type": "Text",
+}
+`;

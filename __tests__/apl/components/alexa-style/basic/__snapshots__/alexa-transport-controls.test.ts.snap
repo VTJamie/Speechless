@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlexaTransportControls: AlexaTransportControls 1`] = `
+{
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "primaryControlPauseAction": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "primaryControlPlayAction": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "secondaryControlsLeftAction": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "secondaryControlsRightAction": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "type": "AlexaTransportControls",
+}
+`;

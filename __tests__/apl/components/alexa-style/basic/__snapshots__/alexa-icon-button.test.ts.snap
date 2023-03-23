@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlexaIconButton: AlexaIconButton 1`] = `
+{
+  "buttonId": "btnm",
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "primaryAction": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "type": "AlexaIconButton",
+  "vectorSource": "vector",
+}
+`;

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OpenURLCommand: OpenURLCommand 1`] = `
+{
+  "onFail": [
+    {
+      "arguments": [
+        "uniqueId",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "source": "url",
+  "type": "OpenURL",
+}
+`;

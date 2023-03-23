@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APLScrollView: APLScrollView 1`] = `
+{
+  "items": [
+    {
+      "onCursorEnter": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "onCursorExit": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "onMount": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "text": "placeholder",
+      "type": "Text",
+    },
+  ],
+  "onBlur": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onFocus": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onScroll": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "type": "ScrollView",
+}
+`;

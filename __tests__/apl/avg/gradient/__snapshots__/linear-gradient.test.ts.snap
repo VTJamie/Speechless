@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinearGradient: LinearGradient 1`] = `
+{
+  "colorRange": [
+    "rgba(235,255,133,1%)",
+    "\${color}",
+  ],
+  "description": "description",
+  "inputRange": [
+    544,
+    344,
+  ],
+  "spreadMethod": "\${hmmm}",
+  "type": "linear",
+  "units": "boundingBox",
+  "x1": "2",
+  "x2": 3,
+  "y1": 4,
+  "y2": 5,
+}
+`;

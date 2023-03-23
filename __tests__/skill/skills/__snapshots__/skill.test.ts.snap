@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skill: Skill 1`] = `
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "dialogManagement": {
+          "dialogManagers": [
+            {
+              "type": "AMAZON.Conversations",
+            },
+          ],
+        },
+        "interfaces": [
+          {
+            "supportedViewports": [
+              {
+                "maxHeight": 599,
+                "maxWidth": 599,
+                "minHeight": 100,
+                "minWidth": 100,
+                "mode": "HUB",
+                "shape": "ROUND",
+              },
+              {
+                "maxHeight": 959,
+                "maxWidth": 1279,
+                "minHeight": 600,
+                "minWidth": 960,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+              },
+              {
+                "maxHeight": 1279,
+                "maxWidth": 1920,
+                "minHeight": 600,
+                "minWidth": 1280,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+              },
+              {
+                "maxHeight": 540,
+                "maxWidth": 960,
+                "minHeight": 540,
+                "minWidth": 960,
+                "mode": "TV",
+                "shape": "RECTANGLE",
+              },
+            ],
+            "type": "ALEXA_PRESENTATION_APL",
+          },
+        ],
+      },
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "TheBestSkill",
+        },
+      },
+      "name": "TheBestSkill",
+    },
+  },
+}
+`;

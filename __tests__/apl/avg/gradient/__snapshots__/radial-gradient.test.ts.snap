@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadialGradient: RadialGradient 1`] = `
+{
+  "centerX": 4,
+  "centerY": 5,
+  "colorRange": [
+    "red",
+    "\${color}",
+  ],
+  "description": "description",
+  "inputRange": [
+    544,
+    344,
+  ],
+  "radius": 4,
+  "type": "radial",
+}
+`;

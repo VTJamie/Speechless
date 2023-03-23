@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SetStateCommand: SetStateCommand 1`] = `
+{
+  "state": "checked",
+  "type": "SetState",
+  "value": true,
+}
+`;

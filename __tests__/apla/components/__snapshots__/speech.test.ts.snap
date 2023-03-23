@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APLASpeech: APLASpeech 1`] = `
+{
+  "content": "content of speech",
+  "type": "Speech",
+}
+`;

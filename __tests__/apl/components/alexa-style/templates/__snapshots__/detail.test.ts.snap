@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlexaDetail: AlexaDetail 1`] = `
+{
+  "button1PrimaryAction": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "button2PrimaryAction": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "externalLinkButtonPrimaryAction": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "headerBackButtonCommand": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "type": "AlexaDetail",
+}
+`;

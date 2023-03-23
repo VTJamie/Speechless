@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APLImage: APLImage 1`] = `
+{
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onFail": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onLoad": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "type": "Image",
+}
+`;

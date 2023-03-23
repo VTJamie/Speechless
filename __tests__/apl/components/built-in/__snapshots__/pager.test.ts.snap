@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APLPager: APLPager 1`] = `
+{
+  "items": [
+    {
+      "onCursorEnter": [
+        {
+          "arguments": [
+            "1",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "onCursorExit": [
+        {
+          "arguments": [
+            "2",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "onMount": [
+        {
+          "arguments": [
+            "3",
+          ],
+          "type": "SendEvent",
+        },
+      ],
+      "text": "placeholder",
+      "type": "Text",
+    },
+  ],
+  "onBlur": [
+    {
+      "arguments": [
+        "4",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "5",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "6",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onFocus": [
+    {
+      "arguments": [
+        "7",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "8",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onPageChanged": [
+    {
+      "arguments": [
+        "9",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "type": "Pager",
+}
+`;

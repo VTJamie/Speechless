@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlexaSwipeToAction: AlexaSwipeToAction 1`] = `
+{
+  "onButtonsHidden": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "onButtonsShown": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "unique",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onSwipeDone": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "onSwipeMove": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "primaryAction": {
+    "arguments": [
+      "unique",
+    ],
+    "type": "SendEvent",
+  },
+  "type": "AlexaSwipeToAction",
+}
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpeakListCommand: SpeakListCommand 1`] = `
+{
+  "count": 3,
+  "start": 1,
+  "type": "SpeakList",
+}
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SequentialCommand: SequentialCommand 1`] = `
+{
+  "catch": [
+    {
+      "arguments": [
+        "uniqueId",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "commands": [
+    {
+      "arguments": [
+        "uniqueId",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "finally": [
+    {
+      "arguments": [
+        "uniqueId",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "type": "Sequential",
+}
+`;

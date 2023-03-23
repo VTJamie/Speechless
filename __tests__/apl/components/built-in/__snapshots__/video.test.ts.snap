@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APLVideo: APLVideo 1`] = `
+{
+  "onCursorEnter": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onCursorExit": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onEnd": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onMount": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onPause": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onPlay": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onTimeUpdate": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onTrackFail": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onTrackReady": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "onTrackUpdate": [
+    {
+      "arguments": [
+        "1",
+      ],
+      "type": "SendEvent",
+    },
+  ],
+  "type": "Video",
+}
+`;
