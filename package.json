@@ -1,6 +1,6 @@
 {
-  "name": "speechless",
-  "version": "1.0.0",
+  "name": "intentful",
+  "version": "1.0.1",
   "description": "Create Custom Skills with less headache",
   "main": "index.js",
   "types": "index.d.ts",
@@ -23,7 +23,7 @@
   "scripts": {
     "clean": "rm -rf dist apl skill apla index.d.ts index.js types.d.ts types.js build node_modules",
     "test": "npx jest --coverage",
-    "prepublishOnly": "npm run lint",
+    "prepublishOnly": "npm run release && npm run lint",
     "fix": "prettier --write \"{lib,__tests__}/**/*.{ts,tsx}\" && eslint --fix \"{lib,__tests__}/**/*.{ts,tsx}\"",
     "lint": "prettier --check \"{lib,__tests__}/**/*.{ts,tsx}\" && eslint \"{lib,__tests__}/**/*.{ts,tsx}\"",
     "release": "npm run test && tsc",

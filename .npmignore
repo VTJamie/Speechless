@@ -1,6 +1,3 @@
-lib/
-tsconfig.json
-jest.config.ts
-.eslintrc.js
-__tests__/
-coverage/
+lib
+__tests__
+coverage
