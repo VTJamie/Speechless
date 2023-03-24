@@ -3,6 +3,6 @@ dist
 coverage
 *.d.ts
 *.js
-./apl/
-./apla/
-./skill/
+apl
+apla
+skill

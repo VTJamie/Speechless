@@ -9,7 +9,7 @@ import { LocaleString, ModelProvider } from '../../types';
 import { RegionAllAllowedTypesEndpointUri, SkillManifestEndpointAllAllowedTypesEndpointUri, SkillManifestModel } from '../interfaces';
 import { Locale } from '../locale';
 import { DynamoDBInfo, FilePackageWriter, LabeledRequestHandler } from '../models';
-import { JSBErrorHandler, JSBRequestInterceptor, JSBResponseInterceptor } from '../types';
+import { JSBRequestInterceptor, JSBResponseInterceptor } from '../types';
 
 export type Locales = { [locale in LocaleString]?: Locale };
 export type APLDocuments = { [documentName: string]: APLDocument };
@@ -30,8 +30,7 @@ export interface SkillProps {
   customUserAgent?: string;
   dynamoDBInfo?: DynamoDBInfo;
   requestInterceptor?: JSBRequestInterceptor;
-  responseInterceptor?: JSBResponseInterceptor;
-  errorHandler?: JSBErrorHandler;
+  responseInterceptor?: JSBResponseInterceptor;  
 }
 
 export class Skill implements ModelProvider<SkillManifestModel>, FilePackageWriter {
