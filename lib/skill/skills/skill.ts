@@ -15,7 +15,7 @@ export type Locales = { [locale in LocaleString]?: Locale };
 export type APLDocuments = { [documentName: string]: APLDocument };
 export type APLADocuments = { [documentName: string]: APLADocument };
 export interface CustomEndpointsProps {
-  endpoint?: SkillManifestEndpointAllAllowedTypesEndpointUri;
+  endpoint: SkillManifestEndpointAllAllowedTypesEndpointUri;
   regions?: {
     EU?: RegionAllAllowedTypesEndpointUri;
     FE?: RegionAllAllowedTypesEndpointUri;
@@ -26,11 +26,11 @@ export interface CustomEndpointsProps {
 
 export interface SkillProps {
   name: string;
-  custom?: CustomEndpointsProps;
+  custom: CustomEndpointsProps;
   customUserAgent?: string;
   dynamoDBInfo?: DynamoDBInfo;
   requestInterceptor?: JSBRequestInterceptor;
-  responseInterceptor?: JSBResponseInterceptor;  
+  responseInterceptor?: JSBResponseInterceptor;
 }
 
 export class Skill implements ModelProvider<SkillManifestModel>, FilePackageWriter {
