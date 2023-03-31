@@ -160,8 +160,7 @@ export class Skill implements ModelProvider<SkillManifestModel>, FilePackageWrit
 
   model(): SkillManifestModel {
     return {
-      manifest: {
-        manifestVersion: '1.0',
+      manifest: {        
 
         apis: {
           custom: {
@@ -230,8 +229,7 @@ export class Skill implements ModelProvider<SkillManifestModel>, FilePackageWrit
               ...left,
               ...right
             };
-          }),
-          name: this.props.name
+          })
         }
       }
     };

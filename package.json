@@ -1,6 +1,6 @@
 {
   "name": "intentful",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Create Custom Skills with less headache",
   "main": "index.js",
   "types": "index.d.ts",
