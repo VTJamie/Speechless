@@ -12,6 +12,9 @@ exports[`Skill: Skill 1`] = `
             },
           ],
         },
+        "endpoint": {
+          "uri": "customendpoint",
+        },
         "interfaces": [
           {
             "supportedViewports": [
